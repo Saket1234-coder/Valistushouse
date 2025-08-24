@@ -1,6 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html >
 
 <head>
   <title>Hope Tribe Points</title>
@@ -10,28 +8,20 @@
       margin: 0;
       padding: 0;
       background-color: yellow;
-    }
-
-    header,
-    footer {
       text-align: center;
-      padding: 20px;
     }
 
     h1 {
-      text-align: center;
       margin-top: 20px;
     }
 
     #points-container {
-      text-align: center;
       margin-top: 30px;
       font-size: 24px;
       font-weight: bold;
     }
 
     .button-container {
-      text-align: center;
       margin: 30px 0;
     }
 
@@ -67,12 +57,19 @@
   <marquee>Hope</marquee>
 
   <h1>This is a webpage for the Hope Tribe</h1>
+  <h3>The hope tribe slogan is</h3>
+  <h3>rise to shine</h3>
 
-<div class="button-container">
-      <a href="Valistus.html" class="button">Back to Home</a>
-</div>
+  <div id="points-container">
+    <p>Tribe Points: <span id="points">0</span></p>
+    <progress value="0" max="100"></progress>
+    <p>Will update each week</p>
+  </div>
+
+  <div class="button-container">
+    <a href="Valistus.html" class="button">Back to Home</a>
+  </div>
 
 </body>
 
 </html>
-
