@@ -1,4 +1,4 @@
-	<!DOCTYPE html >
+<!DOCTYPE html >
 
 <head>
 <marquee>Peace</marquee>	
@@ -26,7 +26,15 @@
     }
 
     h1 {
+      text-align: center;
       margin-top: 20px;
+    }
+
+    #points-container {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 20px;
+      font-weight: bold;
     }
 
     .button-container {
@@ -56,11 +64,17 @@
 </head>
 
 <body>
-<h1 style="text-align: center;">This is a webpage for PEACE</h1>
+<h1>This is a webpage for PEACE</h1>
+
+<div id="points-container">
+  <p>Tribe Points: <span id="points">0</span></p>
+  <progress value="0" max="100"></progress>
+  <p>Will update each week</p>
+</div>
+
 <div class="button-container">
       <a href="Valistus.html" class="button">Back to Home</a>
 </div>
 </body>
 
 </html>
-
