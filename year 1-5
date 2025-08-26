@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upcoming Events for year 1 - 5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue; 
+            padding: 40px;
+            margin: 0;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .event {
+            background-color: #ffffff;
+            padding: 15px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-left: 5px solid #2980b9;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .event-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .event-detail {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upcoming Events for year 1 - 5</h1>
+    <div class="event">
+        <div class="event-title">Spell masters</div>
+        <div class="event-detail">📅-7th and 14th august</div>
+        <div class="event-detail"> Type: Spelling contest</div>
+    </div>
+    <div class="event">
+        <div class="event-title">The great debate</div>
+        <div class="event-detail">📅 Date: 6th and 13th August</div>
+        <div class="event-detail">🏅 Type: Debate</div>
+    </div>
+    <div class="event">
+        <div class="event-title">Sprint races</div>
+        <div class="event-detail">📅 Date: 6th and 13 aug</div>
+        <div class="event-detail">🏅 Type: running</div>
+    </div>
+
+    <div class="event">
+        <div class="event-title">Sprint races</div>
+        <div class="event-detail">📅 Date: 7th and 14th Aug 2025</div>
+        <div class="event-detail">🏅 Type: Running</div>
+    </div>
+
+    <div class="event">
+        <div class="event-title">Rythym And Razmatazz</div>
+        <div class="event-detail">📅 Date: 4th, 11th , 3d , and 10th sep 2025</div>
+        <div class="event-detail">🏅 Type: Music</div>
+    </div>
+    <div class="event">
+        <div class="event-title">Football</div>
+        <div class="event-detail">📅 Date: 3d , 4th, 10th , and 11th sep 2025</div>
+        <div class="event-detail">🏅 Type: Football</div>
+    </div>
+    <div class="event">
+        <div class="event-title">Poetry</div>
+        <div class="event-detail">📅 Date: 9th and 11th October 2025</div>
+        <div class="event-detail">🏅 Type: Poetry</div>
+    </div>
+    <div class="event">
+        <div class="event-title">literary quiz </div>
+        <div class="event-detail">📅 Date: 8th and 15th October 2025</div>
+        <div class="event-detail">🏅 Type: quiz</div>
+    </div>
+    <div class="event">
+        <div class="event-title">Basketball</div>
+        <div class="event-detail">📅 Date: 8 , 15 , 9th , and 16 october 2025</div>
+        <div class="event-detail">🏅 Type: basketball</div>
+    </div>
+    <div class="event">
+        <div class="event-title">Chess</div>
+        <div class="event-detail">📅 Date:3 , 10 ,and 18th December</div>
+        <div class="event-detail">🏅 Type: Chess</div>
+    </div>
+    <div class="button-container">
+      <a href="Valistus.html" class="button">Back to Home</a>
+</div>
+</body>
+</html>
